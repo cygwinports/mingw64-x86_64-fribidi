@@ -2,14 +2,14 @@ CROSS_HOST="x86_64-w64-mingw32"
 inherit cross
 
 NAME="mingw64-x86_64-fribidi"
-VERSION=0.19.2
+VERSION=0.19.7
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="Bidirectional Unicode library for Win64 toolchain"
 DESCRIPTION="A library that implements the Unicode Bidirectional Algorithm
 (also knows as BiDi)."
-HOMEPAGE="http://fribidi.org/wiki/"
-SRC_URI="http://fribidi.org/download/fribidi-${VERSION}.tar.gz"
+HOMEPAGE="http://fribidi.org/"
+SRC_URI="http://fribidi.org/download/fribidi-${VERSION}.tar.bz2"
 SRC_DIR="fribidi-${VERSION}"
 
 CYGCONF_ARGS="--without-glib"
